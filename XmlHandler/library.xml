@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="library-txt.xsl"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+	<book id="1">
+		<title>Harry Potter Philosopher's Stone</title>
+		<author>J. K. Rowling</author>
+		<language>English</language>
+		<publisher>Bloomsbury Publishing</publisher>
+		<year>1997</year>
+	</book>
+	<book id="2">
+		<title>Anna zo Zeleného domu</title>
+		<author>Lucy Maud Montgomeryová</author>
+		<language>Slovak</language>
+		<publisher>Mlade Leta</publisher>
+		<year>2015</year>
+		<available>false</available>
+	</book>
+	<book id="3">
+		<title>Slovenské rozprávky</title>
+		<author>Pavol Dobsinský</author>
+		<language>Slovak</language>
+		<publisher>Mlade Leta</publisher>
+		<year>1880</year>
+	</book>
+	<book id="4">
+		<title>Le Petit Prince</title>
+		<author>Antoine de Saint-Exupéry</author>
+		<language>French</language>
+		<publisher>Reynal and Hitchcock</publisher>
+		<year>1943</year>
+		<available>true</available>
+	</book>
+	<book id="5">
+		<title>The Shack</title>
+		<author>William Paul Young</author>
+		<language>English</language>
+		<publisher>Hodder Windblown</publisher>
+		<year>2008</year>
+	</book>
+	<book id="6">
+		<title>Jane Eyre</title>
+		<author>Charlotte Brontë</author>
+		<language>English</language>
+		<publisher>Smith, Elder and Co.</publisher>
+		<year>1847</year>
+	</book>
+	<book id="7">
+		<title>Da Vinciho kód</title>
+		<author>Dan Brown</author>
+		<language>Slovak</language>
+		<publisher>Slovart</publisher>
+		<year>2004</year>
+	</book>
+</library>

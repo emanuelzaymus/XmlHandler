@@ -1,0 +1,59 @@
+
+		Library Content
+		
+	
+		Book (id-1)
+		Title:Harry Potter Philosopher's Stone
+		Author:J. K. Rowling
+		Language:English
+		Publisher:Bloomsbury Publishing
+		Year:1997
+		
+	
+		Book (id-2)
+		Title:Anna zo Zeleného domu
+		Author:Lucy Maud Montgomeryová
+		Language:Slovak
+		Publisher:Mlade Leta
+		Year:2015
+		
+	
+		Book (id-3)
+		Title:Slovenské rozprávky
+		Author:Pavol Dobsinský
+		Language:Slovak
+		Publisher:Mlade Leta
+		Year:1880
+		
+	
+		Book (id-4)
+		Title:Le Petit Prince
+		Author:Antoine de Saint-Exupéry
+		Language:French
+		Publisher:Reynal and Hitchcock
+		Year:1943
+		
+	
+		Book (id-5)
+		Title:The Shack
+		Author:William Paul Young
+		Language:English
+		Publisher:Hodder Windblown
+		Year:2008
+		
+	
+		Book (id-6)
+		Title:Jane Eyre
+		Author:Charlotte Brontë
+		Language:English
+		Publisher:Smith, Elder and Co.
+		Year:1847
+		
+	
+		Book (id-7)
+		Title:Da Vinciho kód
+		Author:Dan Brown
+		Language:Slovak
+		Publisher:Slovart
+		Year:2004
+		

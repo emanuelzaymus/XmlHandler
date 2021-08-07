@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="library">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="book">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title" type="xs:string"/>
+							<xs:element name="author" type="xs:string"/>
+							<xs:element name="language">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="English"/>
+										<xs:enumeration value="Slovak"/>
+										<xs:enumeration value="Czech"/>
+										<xs:enumeration value="German"/>
+										<xs:enumeration value="French"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="publisher" type="xs:string"/>
+							<xs:element name="year">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1000"/>
+										<xs:maxInclusive value="2021"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="available" type="xs:boolean" default="true" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
